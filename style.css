@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,600");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: "Open Sans", sans-serif;
+}
+h1 {
+  font-size: 1.6rem;
+  margin: 0.5rem;
+}
+h2 {
+  font-size: 1.4rem;
+}
+h3 {
+  font-size: 1.2rem;
+  margin: 0 0 0.5rem 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 2rem;
+}
+.nav {
+  display: flex;
+  list-style: none;
+}
+.nav__items {
+  display: flex;
+  padding: 0 1rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  margin: 2rem auto;
+}
+.search-items {
+  font-size: 1.6rem;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+#search-btn {
+  cursor: pointer;
+}
+.recipe {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+  margin: 0 5rem 2rem 5rem;
+}
+.recipe__items {
+  width: 100%;
+  background-color: beige;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px gray;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: left !important;
+}
+.recipe img {
+  width: 90%;
+  /* height: 20rem; */
+  margin: 1rem 1rem 0 1rem;
+  border-radius: 10px;
+}
+
+/* Flipper */
